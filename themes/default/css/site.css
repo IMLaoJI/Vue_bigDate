@@ -1,0 +1,318 @@
+html,
+body {
+    height: 100%;
+}
+
+h1,
+h2,
+h6 {
+    font-weight: 100;
+}
+
+h3,
+h4,
+h5 {
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+h5 {
+    font-size: 12px;
+}
+
+h6 {
+    font-size: 10px;
+}
+
+a:focus {
+    outline: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+
+/*按钮*/
+
+.btn-primary {
+    background-color: #1ab394;
+    border-color: #1ab394;
+    color: #FFFFFF;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+    background-color: #18a689;
+    border-color: #18a689;
+    color: #FFFFFF;
+}
+
+.btn-white {
+    color: inherit;
+    background: white;
+    border: 1px solid #e7eaec;
+}
+
+.btn-white:hover,
+.btn-white:focus,
+.btn-white:active,
+.btn-white.active {
+    color: inherit;
+    border: 1px solid #d2d2d2;
+}
+
+
+/*图标*/
+
+.arrow {
+    float: right;
+    margin-top: 2px;
+}
+
+.fa.arrow:before {
+    content: "\f104";
+}
+
+.active>a>.fa.arrow:before {
+    content: "\f107";
+}
+
+
+/*导航*/
+
+.navbar {
+    border: 0;
+}
+
+.nav>li>a {
+    color: #a7b1c2;
+    font-weight: 600;
+    padding: 14px 20px 14px 25px;
+}
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color: white;
+}
+
+.navbar-default .nav>li>a:hover,
+.navbar-default .nav>li>a:focus {
+    background: #fff;
+    color: #1ab394;
+}
+
+.navbar-default .nav>li {
+    border-left: 4px solid transparent;
+}
+
+.navbar-default .nav>li.active {
+    border-left: 4px solid #19aa8d;
+    background: #293846;
+}
+
+.nav-second-level li a {
+    padding-left: 52px;
+}
+
+.nav-third-level li a {
+    padding-left: 62px;
+}
+
+
+/*表单*/
+
+.form-control:focus {
+    border-color: #1ab394 !important;
+}
+
+.form-control,
+.form-control:focus {
+    box-shadow: none;
+}
+
+
+/*面板*/
+
+.panel-default>.panel-heading {
+    background-color: #fefefe;
+}
+
+.panel-title {
+    font-size: inherit;
+}
+
+.panel-tools a {
+    cursor: pointer;
+    margin-left: 5px;
+    color: #c4c4c4;
+}
+
+
+/*分页*/
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    background-color: #1ab394;
+    border-color: #1ab394;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    color: #76838f;
+}
+
+
+/* 背景颜色 */
+
+.bg-gray {
+    background-color: #f3f3f4;
+}
+
+
+/*自定义*/
+
+.sidebar {
+    width: 220px;
+    position: fixed;
+    height: 100%;
+    background-color: #2f4050;
+}
+
+.dashbard {
+    margin-left: 220px;
+    height: 100%;
+    background-color: #f3f3f4;
+    overflow-y: hidden;
+    padding-top: 10px;
+}
+
+.site-title {
+    font-weight: 400;
+    font-size: 22px;
+    width: 100%;
+    /*line-height: 70px;
+    display: block;
+    height: 60px;
+    margin: 0;
+    padding-left: 10px;*/
+}
+
+.page {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/*tabs*/
+
+.tabs-header {
+    position: relative;
+    height: 42px;
+    background: #fafafa;
+    line-height: 40px;
+    border-bottom: solid 2px #2f4050;
+}
+
+.tabs-scroller-left,
+.tabs-scroller-right {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #999;
+    top: 0;
+    background: #fff;
+    outline: none;
+    border: 0;
+}
+
+.tabs-scroller-left {
+    left: 0;
+    border-right: solid 1px #eee;
+}
+
+.tabs-scroller-right {
+    right: 0;
+    border-left: solid 1px #eee;
+}
+
+.tabs-wrap {
+    overflow: hidden;
+}
+
+.tabs {
+    margin: 0 40px;
+    width: 100000px;
+    overflow: hidden;
+}
+
+
+/*.tabs .tabs-content {
+    float: left;
+}*/
+
+.tabs a {
+    display: block;
+    float: left;
+    border-right: solid 1px #eee;
+    padding: 0 15px;
+    color: #999;
+}
+
+.tabs a i {
+    color: #ccc;
+}
+
+.tabs a i:hover {
+    color: #c00;
+}
+
+.tabs a:hover,
+.tabs-scroller-left:hover,
+.tabs-scroller-right:hover {
+    color: #777;
+    background: #f2f2f2;
+    cursor: pointer;
+}
+
+.tabs a.active {
+    background: #2f4050;
+    color: #a7b1c2;
+}
+
+.tabs a.active:hover,
+.tabs a.active i:hover {
+    background: #293846;
+    color: #fff;
+}
+
+.tabs-panels,
+.tabs-panel {
+    height: 100%;
+}
